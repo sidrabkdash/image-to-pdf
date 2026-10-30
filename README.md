@@ -1,8 +1,8 @@
-\# Image to PDF – Mobile Document Scanning Application
+# Image to PDF – Mobile Document Scanning Application
 
 
 
-\## 1. Project Overview
+## 1. Project Overview
 
 
 
@@ -14,31 +14,31 @@ The application provides a simple interface for creating, previewing, saving, sh
 
 
 
-\## 2. Main Features
+## 2. Main Features
 
 
 
-\- \*\*Select Images:\*\* Choose one or multiple images from the device gallery.
+- **Select Images:** Choose one or multiple images from the device gallery.
 
-\- \*\*Capture Images:\*\* Take photos directly using the device camera.
+- **Capture Images:** Take photos directly using the device camera.
 
-\- \*\*Image Management:\*\* View selected images and remove unwanted images.
+- **Image Management:** View selected images and remove unwanted images.
 
-\- \*\*PDF Conversion:\*\* Convert selected images into a single PDF document.
+- **PDF Conversion:** Convert selected images into a single PDF document.
 
-\- \*\*PDF Preview:\*\* Preview generated PDF documents.
+- **PDF Preview:** Preview generated PDF documents.
 
-\- \*\*PDF History:\*\* View previously generated PDF files.
+- **PDF History:** View previously generated PDF files.
 
-\- \*\*Save PDF Files:\*\* Save PDF documents on the device.
+- **Save PDF Files:** Save PDF documents on the device.
 
-\- \*\*Share PDF Files:\*\* Share generated PDF documents.
+- **Share PDF Files:** Share generated PDF documents.
 
-\- \*\*Delete PDF Files:\*\* Remove saved PDF records from the history.
+- **Delete PDF Files:** Remove saved PDF records from the history.
 
 
 
-\## 3. Technologies Used
+## 3. Technologies Used
 
 
 
@@ -52,13 +52,13 @@ The application provides a simple interface for creating, previewing, saving, sh
 
 | SQLite | Local database storage |
 
-| image\_picker | Image selection and camera access |
+| image_picker | Image selection and camera access |
 
 | pdf | PDF document generation |
 
 | printing | PDF preview and sharing |
 
-| path\_provider | Access application storage directories |
+| path_provider | Access application storage directories |
 
 | sqflite | SQLite database integration |
 
@@ -66,7 +66,7 @@ The application provides a simple interface for creating, previewing, saving, sh
 
 
 
-\## 4. Database
+## 4. Database
 
 
 
@@ -74,17 +74,17 @@ The application uses SQLite for local data storage.
 
 
 
-The `pdf\\\\\\\_history` table stores information about generated PDF documents, including:
+The `pdf_history` table stores information about generated PDF documents, including:
 
 
 
-\- PDF ID
+- PDF ID
 
-\- File name
+- File name
 
-\- File path
+- File path
 
-\- Creation date and time
+- Creation date and time
 
 
 
@@ -92,7 +92,7 @@ This allows users to access and manage previously generated PDF documents.
 
 
 
-\## 5. Project Structure
+## 5. Project Structure
 
 
 
@@ -106,7 +106,7 @@ image-to-pdf/
 
 │   ├── main.dart
 
-│   └── database\\\\\\\_helper.dart
+│   └── database_helper.dart
 
 │
 
@@ -134,11 +134,11 @@ image-to-pdf/
 
 ```
 
-\# Image to PDF – Mobile Document Scanning Application
+# Image to PDF – Mobile Document Scanning Application
 
 
 
-\## 1. Project Overview
+## 1. Project Overview
 
 
 
@@ -150,31 +150,31 @@ The application also provides PDF preview, local storage, PDF history management
 
 
 
-\## 2. Main Features
+## 2. Main Features
 
 
 
-\- \*\*Select Images:\*\* Choose one or multiple images from the device gallery.
+- **Select Images:** Choose one or multiple images from the device gallery.
 
-\- \*\*Capture Photos:\*\* Take pictures directly using the camera.
+- **Capture Photos:** Take pictures directly using the camera.
 
-\- \*\*Manage Images:\*\* View selected images and remove unwanted images.
+- **Manage Images:** View selected images and remove unwanted images.
 
-\- \*\*Convert to PDF:\*\* Convert selected images into a PDF document.
+- **Convert to PDF:** Convert selected images into a PDF document.
 
-\- \*\*PDF Preview:\*\* Preview the generated PDF document.
+- **PDF Preview:** Preview the generated PDF document.
 
-\- \*\*Save PDF Files:\*\* Store generated PDF documents locally.
+- **Save PDF Files:** Store generated PDF documents locally.
 
-\- \*\*PDF History:\*\* View previously created PDF documents.
+- **PDF History:** View previously created PDF documents.
 
-\- \*\*Share PDF:\*\* Share saved PDF documents with other applications.
+- **Share PDF:** Share saved PDF documents with other applications.
 
-\- \*\*Delete PDF:\*\* Remove unwanted PDF documents from the application.
+- **Delete PDF:** Remove unwanted PDF documents from the application.
 
 
 
-\## 3. Technologies Used
+## 3. Technologies Used
 
 
 
@@ -188,13 +188,13 @@ The application also provides PDF preview, local storage, PDF history management
 
 | SQLite | Local database management |
 
-| image\_picker | Selecting images and capturing photos |
+| image_picker | Selecting images and capturing photos |
 
 | pdf | Generating PDF documents |
 
 | printing | PDF preview and printing |
 
-| path\_provider | Accessing application storage directories |
+| path_provider | Accessing application storage directories |
 
 | sqflite | SQLite database integration |
 
@@ -202,7 +202,7 @@ The application also provides PDF preview, local storage, PDF history management
 
 
 
-\## 4. Database
+## 4. Database
 
 
 
@@ -210,7 +210,7 @@ The application uses SQLite for local data management.
 
 
 
-The database contains a table named `pdf\_history` to store information about generated PDF documents.
+The database contains a table named `pdf_history` to store information about generated PDF documents.
 
 
 
@@ -218,7 +218,7 @@ This allows users to view and manage their previously created PDF files through 
 
 
 
-\## 5. Project Structure
+## 5. Project Structure
 
 
 
@@ -232,7 +232,7 @@ image-to-pdf/
 
 │   ├── main.dart
 
-│   └── database\_helper.dart
+│   └── database_helper.dart
 
 │
 
@@ -272,29 +272,29 @@ image-to-pdf/
 
 
 
-\## 6. Installation and Setup
+## 6. Installation and Setup
 
 
 
-\### Requirements
+### Requirements
 
 
 
-\- Flutter SDK
+- Flutter SDK
 
-\- Dart SDK
+- Dart SDK
 
-\- Android Studio or Visual Studio Code
+- Android Studio or Visual Studio Code
 
-\- Android device or emulator
-
-
-
-\### Run the Application
+- Android device or emulator
 
 
 
-1\. Clone the repository:
+### Run the Application
+
+
+
+1. Clone the repository:
 
 
 
@@ -306,7 +306,7 @@ git clone https://github.com/sidrabkdash/image-to-pdf.git
 
 
 
-2\. Open the project directory:
+2. Open the project directory:
 
 
 
@@ -318,7 +318,7 @@ cd image-to-pdf
 
 
 
-3\. Install dependencies:
+3. Install dependencies:
 
 
 
@@ -330,7 +330,7 @@ flutter pub get
 
 
 
-4\. Run the application:
+4. Run the application:
 
 
 
@@ -342,7 +342,7 @@ flutter run
 
 
 
-\## 7. Testing
+## 7. Testing
 
 
 
@@ -363,66 +363,38 @@ flutter test
 Both commands completed successfully during development.
 
 
+## 8. App Screenshots
 
-\## 8. App Screenshots
+### Home Screen
 
+![Home Screen](screenshots/01-home-screen.jpg)
 
+### Selected Images
 
-\### Home Screen
+![Selected Images](screenshots/02-images-selected.jpg)
 
+### PDF Preview
 
+![PDF Preview](screenshots/03-pdf-preview.jpg)
 
-!\[Home Screen](screenshots/01-home-screen.jpg)
+## 9. Project Repository
 
-
-
-\### Selected Images
-
-
-
-!\[Selected Images](screenshots/02-images-selected.jpg)
-
-
-
-\### PDF Preview
-
-
-
-!\[PDF Preview](screenshots/03-pdf-preview.jpg)
-
-
-
-\## 9. Project Repository
-
-
-
-\*\*GitHub Repository:\*\*  
+**GitHub Repository:**
 
 https://github.com/sidrabkdash/image-to-pdf
 
-
-
-\## 10. Conclusion
-
-
+## 10. Conclusion
 
 Image to PDF provides a simple and convenient way to convert images into PDF documents using a mobile application.
 
-
-
 The project combines Flutter development, image selection, camera integration, PDF generation, local database management, and file sharing in one application.
 
+---
 
+**Project:** Image to PDF – Mobile Document Scanning Application
 
-\---
+**Platform:** Flutter
 
+**Language:** Dart
 
-
-\*\*Project:\*\* Image to PDF – Mobile Document Scanning Application  
-
-\*\*Platform:\*\* Flutter  
-
-\*\*Language:\*\* Dart  
-
-\*\*Database:\*\* SQLite
-
+**Database:** SQLite
