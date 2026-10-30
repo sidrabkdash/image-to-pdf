@@ -74,7 +74,7 @@ The application uses SQLite for local data storage.
 
 
 
-The `pdf\\\_history` table stores information about generated PDF documents, including:
+The `pdf\\\\\\\_history` table stores information about generated PDF documents, including:
 
 
 
@@ -106,7 +106,7 @@ image-to-pdf/
 
 │   ├── main.dart
 
-│   └── database\\\_helper.dart
+│   └── database\\\\\\\_helper.dart
 
 │
 
@@ -121,6 +121,142 @@ image-to-pdf/
 ├── windows/
 
 ├── web/
+
+│
+
+├── test/
+
+├── pubspec.yaml
+
+├── pubspec.lock
+
+└── README.md
+
+```
+
+\# Image to PDF – Mobile Document Scanning Application
+
+
+
+\## 1. Project Overview
+
+
+
+Image to PDF is a mobile application developed using Flutter and Dart. It allows users to select images from their device or capture photos using the camera and convert them into PDF documents.
+
+
+
+The application also provides PDF preview, local storage, PDF history management, sharing, and deletion features.
+
+
+
+\## 2. Main Features
+
+
+
+\- \*\*Select Images:\*\* Choose one or multiple images from the device gallery.
+
+\- \*\*Capture Photos:\*\* Take pictures directly using the camera.
+
+\- \*\*Manage Images:\*\* View selected images and remove unwanted images.
+
+\- \*\*Convert to PDF:\*\* Convert selected images into a PDF document.
+
+\- \*\*PDF Preview:\*\* Preview the generated PDF document.
+
+\- \*\*Save PDF Files:\*\* Store generated PDF documents locally.
+
+\- \*\*PDF History:\*\* View previously created PDF documents.
+
+\- \*\*Share PDF:\*\* Share saved PDF documents with other applications.
+
+\- \*\*Delete PDF:\*\* Remove unwanted PDF documents from the application.
+
+
+
+\## 3. Technologies Used
+
+
+
+| Technology | Purpose |
+
+|---|---|
+
+| Flutter | Mobile application development |
+
+| Dart | Programming language |
+
+| SQLite | Local database management |
+
+| image\_picker | Selecting images and capturing photos |
+
+| pdf | Generating PDF documents |
+
+| printing | PDF preview and printing |
+
+| path\_provider | Accessing application storage directories |
+
+| sqflite | SQLite database integration |
+
+| path | File path management |
+
+
+
+\## 4. Database
+
+
+
+The application uses SQLite for local data management.
+
+
+
+The database contains a table named `pdf\_history` to store information about generated PDF documents.
+
+
+
+This allows users to view and manage their previously created PDF files through the application.
+
+
+
+\## 5. Project Structure
+
+
+
+```text
+
+image-to-pdf/
+
+│
+
+├── lib/
+
+│   ├── main.dart
+
+│   └── database\_helper.dart
+
+│
+
+├── screenshots/
+
+│   ├── 01-home-screen.jpg
+
+│   ├── 02-images-selected.jpg
+
+│   └── 03-pdf-preview.jpg
+
+│
+
+├── android/
+
+├── ios/
+
+├── web/
+
+├── windows/
+
+├── linux/
+
+├── macos/
 
 │
 
@@ -210,7 +346,7 @@ flutter run
 
 
 
-The project includes Flutter widget tests and was checked using:
+The project was checked using the following Flutter commands:
 
 
 
@@ -224,43 +360,17 @@ flutter test
 
 
 
-\## 8. Project Repository
+Both commands completed successfully during development.
 
 
 
-GitHub: https://github.com/sidrabkdash/image-to-pdf
-
-
-
-\## 9. Conclusion
-
-
-
-Image to PDF provides a convenient way to convert images into PDF documents using a mobile application.
-
-
-
-The project combines Flutter development, image processing, PDF generation, local database management, and file sharing in one application.
-
-
-
-\---
-
-
-
-\*\*Project:\*\* Image to PDF – Mobile Document Scanning Application
-
-\*\*Platform:\*\* Flutter
-
-\*\*Repository:\*\* https://github.com/sidrabkdash/image-to-pdf
-
-
-
-\## App Screenshots
+\## 8. App Screenshots
 
 
 
 \### Home Screen
+
+
 
 !\[Home Screen](screenshots/01-home-screen.jpg)
 
@@ -268,11 +378,51 @@ The project combines Flutter development, image processing, PDF generation, loca
 
 \### Selected Images
 
+
+
 !\[Selected Images](screenshots/02-images-selected.jpg)
 
 
 
 \### PDF Preview
 
+
+
 !\[PDF Preview](screenshots/03-pdf-preview.jpg)
+
+
+
+\## 9. Project Repository
+
+
+
+\*\*GitHub Repository:\*\*  
+
+https://github.com/sidrabkdash/image-to-pdf
+
+
+
+\## 10. Conclusion
+
+
+
+Image to PDF provides a simple and convenient way to convert images into PDF documents using a mobile application.
+
+
+
+The project combines Flutter development, image selection, camera integration, PDF generation, local database management, and file sharing in one application.
+
+
+
+\---
+
+
+
+\*\*Project:\*\* Image to PDF – Mobile Document Scanning Application  
+
+\*\*Platform:\*\* Flutter  
+
+\*\*Language:\*\* Dart  
+
+\*\*Database:\*\* SQLite
 
