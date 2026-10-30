@@ -74,7 +74,7 @@ The application uses SQLite for local data storage.
 
 
 
-The `pdf\_history` table stores information about generated PDF documents, including:
+The `pdf\\\_history` table stores information about generated PDF documents, including:
 
 
 
@@ -106,7 +106,7 @@ image-to-pdf/
 
 │   ├── main.dart
 
-│   └── database\_helper.dart
+│   └── database\\\_helper.dart
 
 │
 
@@ -248,9 +248,31 @@ The project combines Flutter development, image processing, PDF generation, loca
 
 
 
-\*\*Project:\*\* Image to PDF – Mobile Document Scanning Application  
+\*\*Project:\*\* Image to PDF – Mobile Document Scanning Application
 
-\*\*Platform:\*\* Flutter  
+\*\*Platform:\*\* Flutter
 
 \*\*Repository:\*\* https://github.com/sidrabkdash/image-to-pdf
+
+
+
+\## App Screenshots
+
+
+
+\### Home Screen
+
+!\[Home Screen](screenshots/01-home-screen.jpg)
+
+
+
+\### Selected Images
+
+!\[Selected Images](screenshots/02-images-selected.jpg)
+
+
+
+\### PDF Preview
+
+!\[PDF Preview](screenshots/03-pdf-preview.jpg)
 
